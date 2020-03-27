@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Unit 6 - Python APIs
 
 ### Overview
@@ -54,3 +55,7 @@ This week we will cover the using third party APIs with Python. Students will pr
 ### Copyright
 
 Data Boot Camp © 2019. All Rights Reserved.
+=======
+# python-api-challenge.-
+Python
+>>>>>>> 82e46fc589a7c680592e724048beb67099784d3e

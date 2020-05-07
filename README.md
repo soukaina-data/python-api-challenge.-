@@ -6,3 +6,4 @@ Cloudiness (%) vs. Latitude
 Wind Speed (mph) vs. Latitude
 
 After all the analysis I demonstrated that the closer we will get to the equator, the hotter it gets the temperature, at least that the initial hypothesis.
+

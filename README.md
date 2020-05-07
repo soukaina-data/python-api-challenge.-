@@ -1,61 +1,64 @@
-<<<<<<< HEAD
-## Unit 6 - Python APIs
+PyBank and PyPoll
+PyBank: Analysis on monthly Profit/Loss data
+PyPoll: Analysis on election result
+Background
+In this work, I created python scripts for analyzing the financial records of PyBank and the election result of PyPoll.
 
-### Overview
+PyBank
+Revenue
 
-This week we will cover the using third party APIs with Python. Students will programmatically obtain and parse data from sources such as OpenWeatherMap, the US Census, OMDB, and more. We will plot Data Frames from the API data using Matplotlib.
+In this work, I created a Python script for analyzing the financial records of PyBank. With a set of financial data called budget_data.csv, the dataset is composed of two columns: Date and Profit/Losses.
 
-### Objectives
+Create a Python script that analyzes the records to calculate each of the following:
 
-* Be able to make GET requests with `requests`.
-* Be able to convert JSON into a Python dictionary.
-* Read and apply API documentation.
-* Sign up for and use an API key.
-* Create applications from scratch using nothing but knowledge of Python and an API documentation.
-* Load JSON from API responses into a Pandas DataFrame.
-* Be able to use `try` and `except` blocks to handle errors.
-* Successfully use the Google Maps and Places API to obtain information about geographic areas.
-* Understand how to use the Census API wrapper.
-* Understand the concept of rate limits and the importance of creating "test cases" prior to running large scripts.
-* Have a firmer understanding of how to dissect new API documentation.
+The total number of months included in the dataset
 
-### Class 6.1 Objectives
+The net total amount of "Profit/Losses" over the entire period
 
-* Students will be able to make GET requests with `requests`.
-* Students will be able to convert JSON into a Python dictionary.
-* Students will read and apply API documentation.
-* Students will sign up for and use an API key.
+The average of the changes in "Profit/Losses" over the entire period
 
-### Class 6.2 Objectives
+The greatest increase in profits (date and amount) over the entire period
 
-* Students will create applications from scratch using nothing but their knowledge of Python and an API documentation
-* Students will load JSON from API responses into a Pandas DataFrame
-* Students will be able to use `try` and `except` blocks to handle errors
+The greatest decrease in losses (date and amount) over the entire period
 
-### Class 6.3 Objectives
+Financial_Analysis
 
-* Students will be able to successfully use the Google Maps and Places API to obtain information about geographic areas.
-* Students will understand how to use the Census API wrapper.
-* Students will understand the concept of rate limits and the importance of creating "test cases" prior to running large scripts.
-* Students will have a firmer understanding of how to dissect new API documentation
-* Students will be able to visually represent data on a map with Jupyter Gmaps.
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578
+Average  Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Decrease in Profits: Sep-2013 ($-2196167)
+PyPoll
+Vote_Counting
 
+In this work, I created a Python script for analyzing the votes of election result of PyPoll.
 
-### Helpful Links
+With a set of poll data called election_data.csv, the dataset is composed of three columns: Voter ID, County, and Candidate.
 
-* [JSON Testing](https://jsonplaceholder.typicode.com/)
-* [OMDb API](http://www.omdbapi.com/)
-* [The New York Times API](https://developer.nytimes.com/)
-* [Open Weather Map API](http://openweathermap.org/api)
-* [The World Bank API](http://api.worldbank.org/)
-* [Google Maps API](https://developers.google.com/maps/)
+Create a Python script that analyzes the votes and calculates each of the following:
 
-- - -
+The total number of votes cast
 
-### Copyright
+A complete list of candidates who received votes
 
-Data Boot Camp © 2019. All Rights Reserved.
-=======
-# python-api-challenge.-
-Python
->>>>>>> 82e46fc589a7c680592e724048beb67099784d3e
+The percentage of votes each candidate won
+
+The total number of votes each candidate won
+
+The winner of the election based on popular vote.
+
+Election_Results
+
+Election Results
+-------------------------
+Total Votes: 3521001
+-------------------------
+Khan: 63.000% (2218231)
+Correy: 20.000% (704200)
+Li: 14.000% (492940)
+O'Tooley: 3.000% (105630)
+-------------------------
+Winner: Khan
+-------------------------

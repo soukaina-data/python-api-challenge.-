@@ -3,6 +3,6 @@ I built a series of scatter plots to showcase the following relationships:
 Temperature (F) vs. Latitude
 Humidity (%) vs. Latitude
 Cloudiness (%) vs. Latitude
-Wind Speed (mph) vs. Latitude
+Wind Speed (mph) vs. Latitude.
 
 After all the analysis I demonstrated that the closer we will get to the equator, the hotter it gets the temperature, at least that the initial hypothesis.
